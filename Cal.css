@@ -3,15 +3,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #ffffff;
     margin: 0;
     font-family: Arial, sans-serif;
   }
   
   .calculator {
-    background: rgb(201, 201, 201);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(117, 99, 167, 0.2);
+    box-shadow: 0 4px 10px rgb(77, 2, 147);
     padding: 20px;
     width: 300px;
   }
@@ -23,7 +23,7 @@ body {
     font-size: 1.5em;
     text-align: right;
     padding: 10px;
-    border: 2px solid #585859;
+    border: 2px solid #b9b9c2;
     border-radius: 5px;
   }
   
@@ -39,10 +39,10 @@ body {
     margin: 5px; /* Jarak antar tombol */
     padding: 10px 20px; /* Ukuran tombol */
     text-align: center; /* Teks di tengah */
-    border: 1px solid #66acd2; /* Gaya border */
+    border: 1px solid #3f0168; /* Gaya border */
     border-radius: 5px; /* Border melengkung */
-    background-color: #4faad8; /* Warna latar */
-    color: #333; /* Warna teks */
+    background-color: #24b5fd; /* Warna latar */
+    color: #000000; /* Warna teks */
     font-size: 18px; /* Ukuran teks */
     cursor: pointer; /* Pointer saat hover */
   }
@@ -52,7 +52,7 @@ body {
     font-size: 1.2em;
     padding: 10px;
     border: none;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -62,25 +62,25 @@ body {
   }
   /* Warna default untuk tombol angka */
 .number {
-  background-color: #f0f8ff; /* Biru muda */
-  color: #333; /* Warna teks gelap */
-  border: 1px solid #fff; /* Border */
+  background-color: #398df3; /* Biru muda */
+  color: #000000; /* Warna teks gelap */
+  border: 1px solid #6412a2; /* Border */
   transition: background-color 0.2s ease; /* Animasi transisi */
 }
 
 /* Warna tombol saat diklik */
 .number:active {
-  background-color: #add8e6; /* Biru lebih gelap */
-  color: white; /* Teks putih saat tombol ditekan */
+  background-color: #00bfff; /* Biru lebih gelap */
+  color: rgb(90, 4, 133); /* Teks putih saat tombol ditekan */
 }
 
 /* Warna untuk tombol operator */
 .operator {
-  background-color: #fed1cc; /* Merah muda */
-  color: #333;
+  background-color: #00ffdd; /* Merah muda */
+  color: #000000;
 }
 
 .operator:active {
-  background-color: #ff7f7f; /* Merah lebih gelap */
-  color: white;
+  background-color: #00ffdd; /* Merah lebih gelap */
+  color: rgb(255, 255, 255);
 }
